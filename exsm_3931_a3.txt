@@ -1,8 +1,6 @@
 Machine
 
-Display “welcome” screen
-If user choose customer
-Display “Menu”
+Display “Welcome” screen
 If user selects item
 Display “Press 1 to continue or press 2 to cancel the order”
 If 1 selected cancel, back to welcome screen
@@ -20,10 +18,34 @@ If user inserts cash
 
 If user inserts card
     Ask for user to enter their pin
-    after pin has been entered wait for transaction to process
+    After pin has been entered wait for transaction to process
     Display "Please remove your card"
     Dispence item
     Display “Thank youand have a wonderful day”
 
 Customer
+
+Walk up to Machine
+Decide what you want 
+Check price by typing in their code
+If you dont hagve enough money leave
+Take out wallet
+
+If using cash insert cash
+    Wait for item to be dispenced
+    Grab your change
+    Leave
+
+If taping a card
+    Tap card on card reader the card reader
+    Wait for item to be dispenced
+    Leave
+
+if inserting a card
+    Insert card
+    Enter pin into machine
+    Wait until the machine says "Remove Card"
+    Remove card
+    Wait for item to be dispenced
+    Leave
 
