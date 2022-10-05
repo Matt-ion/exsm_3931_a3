@@ -1,0 +1,29 @@
+Machine
+
+Display “welcome” screen
+If user choose customer
+Display “Menu”
+If user selects item
+Display “Press 1 to continue or press 2 to cancel the order”
+If 1 selected cancel, back to welcome screen
+Display item price
+
+Display "How would you want to pay"
+    
+If user inserts cash
+    Change = total – drink cost
+    Display "Processing”
+    Dispence item
+    Display “Your Change is”
+    If change > 0, dispence change
+    Display “Thank youand have a wonderful day”
+
+If user inserts card
+    Ask for user to enter their pin
+    after pin has been entered wait for transaction to process
+    Display "Please remove your card"
+    Dispence item
+    Display “Thank youand have a wonderful day”
+
+Customer
+
